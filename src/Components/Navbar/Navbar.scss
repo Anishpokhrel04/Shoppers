@@ -26,20 +26,26 @@
     font-weight: 500;
     cursor: pointer;
     align-items: center;
+    text-decoration: none;
 
     li {
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       gap: 3px;
       cursor: pointer;
+      text-decoration: none;
+      a{
+        text-decoration: none;
+        color: inherit;
+      }
 
       hr {
         border: none;
         width: 80%;
         height: 3px;
         background: #ff4141;
-
         border-radius: 10px;
       }
     }
