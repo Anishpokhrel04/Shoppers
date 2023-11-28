@@ -2,8 +2,12 @@
   width: 250px;
   display: flex;
   flex-direction: column;
- 
-
+  margin-bottom: 20px;
+  img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+  }
   p {
     margin: 0 6px;
   }
